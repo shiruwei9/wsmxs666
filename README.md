@@ -36,31 +36,4 @@ Running time, Global hop, Average hop
 * For the largest network we managed for running, the number of nodes is more than 5000 and the number of request is more than 150
 ---
 
-## Instructions(Bonus is included):
 
-* The input provided (as command line to the program) will be of the form:
-
->$ mix run project3.exs numNodes numMessages
-numNodes -> Required number of nodes to be set up in a chord  
-numMessages -> Number of messages each node sends for lookups    
-   
-* The input for Bonus will be of the form:  
-   
->$ mix run project3.exs numNodes numMessages numDeleteNodes   
-numNodes -> Required number of nodes to be set up in a chord  
-numMessages -> Number of messages each node sends for lookups  
-numDeleteNodes -> Number of nodes to be deleted from the established nodes(failure model)   
-
----
-
-## Result of running:
-
->$ *mix run project3.exs 1000 10   
-Average hops for a message: 3.218
- ---
- 
-## Result of running(Bonus):
-
->$ *mix run project3.exs 1000 100 10   
-Average hops for a message: 3.310  
- ---
