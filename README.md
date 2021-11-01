@@ -23,6 +23,8 @@ dotnet fsi .\Chord.fsx <nodeNum> <RequestNum>
 Running time, Global hop, Average hop
 ```
 
+![image](https://github.com/shiruwei9/wsmxs666/blob/master/211101090754.png)
+
 * The chord protocol is implemented using the APIs mentioned in section 4 of the paper [Chord: A Scalable Peer-to-peer Lookup Protocol] by Ion  Stoica,  Robert  Morris,  David  Karger and others and encode the application associating a key with a string. Our implementation works as expected, and we are able to change the message type and the specific activity with a simliar API(such as stablize, join) described in the paper.
 
 * To avoid meeting collisions when we establish unique node ids, we do our approach with random number in the project.
